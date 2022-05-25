@@ -5,7 +5,7 @@ topmenu:
   url: ""
 
 - title: CATEGORY
-  url: "category/"
+  url: "categories/"
 
 - title: ABOUT ME
   url: "about/"

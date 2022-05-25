@@ -10,7 +10,7 @@ paginate: 30
 disqus: 'demowebsite'
 locale: ko
 lang: ko
-feed_items: 8
+feed_items: 12
 feed_update_period: daily
 feed_update_frequency: 1
 markdown: kramdown
@@ -35,9 +35,8 @@ authors:
 
 # Social
 social:
-  instagram: https://www.instagram.com/instagram/
-  facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
-  twitter: https://twitter.com/bstartercom
+  instagram: https://www.instagram.com/easy_hak2/
+  facebook: https://www.facebook.com/
 
 # Plugins
 plugins: 
