@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "Tree of Codes"
-author: jihak
+title:  "First Post"
 categories: [ Jekyll, tutorial ]
 image: assets/images/2.jpg
 ---
