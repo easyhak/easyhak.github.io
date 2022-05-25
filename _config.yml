@@ -1,15 +1,15 @@
 title: "Affiliates"
-email: wowthemesnet@gmail.com
+email: jooin2000@naver.com
 timezone: UTC
-baseurl: "/affiliates-jekyll-theme"
+baseurl: "/"
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-author: Sal
+author: jihak
 paginate: 30
 disqus: 'demowebsite'
-locale: en_us
-lang: en_us
+locale: ko
+lang: ko
 feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
@@ -43,7 +43,7 @@ authors:
 
 # Social
 social:
-  instagram: https://www.instagram.com/bootstrapstarter/
+  instagram: https://www.instagram.com/instagram/
   facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
   twitter: https://twitter.com/bstartercom
 
