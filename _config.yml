@@ -7,7 +7,8 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 author: jihak
 paginate: 30
-disqus: 'demowebsite'
+disqus: 'blog'
+comments: false
 locale: ko
 lang: ko
 feed_items: 6
