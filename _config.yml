@@ -1,7 +1,7 @@
 title: "jihak's blog"
 email: jooin2000@naver.com
 timezone: UTC
-baseurl: "/"
+baseurl: ""
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
