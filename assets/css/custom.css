@@ -13,3 +13,15 @@ pre code {
 .author-meta {
   color: #504d57; text-align: left;
 }
+.pagination em {
+  font-weight: 600;
+  background-color: #485054;
+  display: inline-block;
+  min-width: 100px;
+  color: #ccc;
+  font-size: 13px; padding: 5px;
+}
+.pagination span {
+  font-weight: 600;
+  display: inline-block; font-size: 13px; color: #ccc; padding: 3px;
+}

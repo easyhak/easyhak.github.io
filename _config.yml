@@ -7,7 +7,7 @@ permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 author: jihak
-paginate: 30
+paginate: 6
 disqus: 'blog'
 comments: false
 locale: ko_KR
