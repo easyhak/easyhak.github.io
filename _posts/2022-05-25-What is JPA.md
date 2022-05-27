@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JPA란 무엇인가?"
-categories: [ Jekyll, tutorial ]
+categories: [ JPA ]
 image: assets/images/JPA-banner.jpeg
 comments: false
 ---

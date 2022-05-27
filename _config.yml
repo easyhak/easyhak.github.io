@@ -1,4 +1,5 @@
 title: "jihak's blog"
+title_seperator: "|"
 email: jooin2000@naver.com
 timezone: UTC
 baseurl: ""
@@ -9,8 +10,8 @@ author: jihak
 paginate: 30
 disqus: 'blog'
 comments: false
-locale: ko
-lang: ko
+locale: ko_KR
+lang: ko_KR
 feed_items: 6
 feed_update_period: daily
 feed_update_frequency: 1
@@ -32,7 +33,7 @@ authors:
     email: jooin2000@naver.com
     web: https://www.wowthemes.net/category/jekyll-themes/
     twitter: https://twitter.com/
-    description: ""
+    description: "HI~"
 
 # Social
 social:
@@ -46,3 +47,5 @@ plugins:
 - jekyll-feed
 - jekyll-seo-tag
 - jekyll-archives
+
+data_format: "%Y-%m-%d"

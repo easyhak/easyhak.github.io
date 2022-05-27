@@ -10,3 +10,6 @@ pre code {
   display: block;
   padding: 20px;
 }
+.author-meta {
+  color: #504d57; text-align: left;
+}
