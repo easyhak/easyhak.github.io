@@ -9,7 +9,7 @@ favicon: 'assets/images/favicon.ico'
 author: jihak
 paginate: 6
 disqus: 'blog'
-comments: false
+comments: true
 locale: ko_KR
 lang: ko_KR
 feed_items: 6
