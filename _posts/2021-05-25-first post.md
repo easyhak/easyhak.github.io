@@ -1,9 +1,13 @@
 ---
-layout: post
-title:  "First Post"
-categories: [ Jekyll, tutorial ]
-image: assets/images/2.jpg
-description: 첫번째 포스팅이다 열심히 해야지
+title: "First Posting"
+categories:
+  - disinfection
+  - dispatch
+  - echappee
+  - enphagy
+tags:
+  - categories
+  - edge case
 ---
 첫번째 포스팅
 이제 제대로 블로그 시작해보자

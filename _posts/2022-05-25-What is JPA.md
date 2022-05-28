@@ -1,9 +1,13 @@
 ---
-layout: post
-title:  "JPA란 무엇인가?"
-categories: [ JPA ]
-image: assets/images/JPA-banner.jpeg
-comments: false
+title: "JPA란?"
+categories:
+  - disinfection
+  - dispatch
+  - echappee
+  - enphagy
+tags:
+  - categories
+  - edge case
 ---
 ## JPA(Java Persistenc API)
 - Java Persistence API
@@ -17,7 +21,7 @@ comments: false
 - 대중적인 언어에는 ORM기술이 존재(`python`, `java`, `Node.js`...)
 
 ## 동작과정
-<img src="../assets/images/jpa-working-flow.png" alt="jpa-working-flow">
+<img src="/assets/images/jpa-working-flow.png" alt="jpa-working-flow">
 JPA는 애플리케이션과 JDBC 사이에서 동작한다.
 
 ## JPA의 장점
