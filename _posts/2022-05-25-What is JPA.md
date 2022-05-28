@@ -47,24 +47,24 @@ JPA는 애플리케이션과 JDBC 사이에서 동작한다.
     System.out.println(m1 == m2) //true
     // SQL이 한번만 시행된다.
   ```
-  * 트랜잭션을 지원하는 쓰기 로딩을 지연해준다.
-    + insert
-    ```java
-        transaction.begin(); // [트랜잭션] 시작
-        em.persist(memberA);
-        em.persist(memberB);
-        em.persist(memberC);
-        //여기까지 INSERT SQL을 데이터베이스에 보내지 않는다.
-        //커밋하는 순간 데이터베이스에 INSERT SQL을 모아서 보낸다.
-        transaction.commit(); // [트랜잭션] 커밋
-    ```
-    + update
-    ```java
-    transaction.begin(); // [트랜잭션] 시작
-    changeMember(memberA); 
-    deleteMember(memberB); 
-    비즈니스_로직_수행(); //비즈니스 로직 수행 동안 DB 로우 락이 걸리지 않는다. 
-    //커밋하는 순간 데이터베이스에 UPDATE, DELETE SQL을 보낸다.
-    transaction.commit(); // [트랜잭션] 커밋
-    ```
+  * 트랜잭션을 지원하는 쓰기 로딩을 지연해준다.  
+  `insert`
+  ```java
+      transaction.begin(); // [트랜잭션] 시작
+      em.persist(memberA);
+      em.persist(memberB);
+      em.persist(memberC);
+      //여기까지 INSERT SQL을 데이터베이스에 보내지 않는다.
+      //커밋하는 순간 데이터베이스에 INSERT SQL을 모아서 보낸다.
+      transaction.commit(); // [트랜잭션] 커밋
+  ```
+  `update`
+  ```java
+  transaction.begin(); // [트랜잭션] 시작
+  changeMember(memberA); 
+  deleteMember(memberB); 
+  비즈니스_로직_수행(); //비즈니스 로직 수행 동안 DB 로우 락이 걸리지 않는다. 
+  //커밋하는 순간 데이터베이스에 UPDATE, DELETE SQL을 보낸다.
+  transaction.commit(); // [트랜잭션] 커밋
+  ```
   * 지연 로딩(Lazy loading)
