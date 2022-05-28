@@ -1,13 +1,10 @@
 ---
 title: "First Posting"
 categories:
-  - disinfection
-  - dispatch
-  - echappee
-  - enphagy
+  - LIFE
 tags:
-  - categories
-  - edge case
+  - first posting
+  - study
 ---
 첫번째 포스팅
 이제 제대로 블로그 시작해보자

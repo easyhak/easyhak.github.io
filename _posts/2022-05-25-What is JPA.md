@@ -1,13 +1,11 @@
 ---
 title: "JPA란?"
 categories:
-  - disinfection
-  - dispatch
-  - echappee
-  - enphagy
+  - JPA
 tags:
-  - categories
-  - edge case
+  - [study, java]
+toc: true
+toc_sticky: true
 ---
 ## JPA(Java Persistenc API)
 - Java Persistence API
