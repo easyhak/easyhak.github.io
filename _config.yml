@@ -47,5 +47,3 @@ plugins:
 - jekyll-feed
 - jekyll-seo-tag
 - jekyll-archives
-
-data_format: "%Y-%m-%d"
