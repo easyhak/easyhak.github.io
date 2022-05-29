@@ -23,7 +23,7 @@ sidebar:
 
 ## 동작과정
 ![jpa-working-flow](/assets/images/jpa-working-flow.png)
-{: .full}
+
 JPA는 애플리케이션과 JDBC 사이에서 동작한다.
 {: .text-center}
 
