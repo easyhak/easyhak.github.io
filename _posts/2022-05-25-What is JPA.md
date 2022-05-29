@@ -6,6 +6,8 @@ tags:
   - [study, java]
 toc: true
 toc_sticky: true
+sidebar: 
+  nav: "docs"
 ---
 ## JPA(Java Persistenc API, Jakarta Persistence API)
 - 스프링이 제공해주는 것이 아닌 자바에서 제공해주는 `ORM` 표준 기술이다.
@@ -20,7 +22,7 @@ toc_sticky: true
 - 대중적인 언어에는 ORM기술이 존재(`python`, `java`, `Node.js`...)
 
 ## 동작과정
-<img src="../assets/images/jpa-working-flow.png" alt="jpa-working-flow">
+<img src="/assets/images/jpa-working-flow.png" alt="jpa-working-flow">
 JPA는 애플리케이션과 JDBC 사이에서 동작한다.
 
 ## JPA의 장점

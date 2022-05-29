@@ -2,12 +2,26 @@
 main:
   # - title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "About"
+  #  url: https://mmistakes.github.io/minimal-mistakes/about/
   - title: "Categories"
     url: /categories/
   - title: "Tags"
     url: /tags/
+  - title: "Search"
+    url: /search/
+docs:
+  - title: "Category"
+    url: /categories/
+    children: 
+      - title: "JPA"
+        url: /categories/#jpa/
+      - title: "LIFE"
+        url: /categories/#life/
+
+  - title: "Tag"
+    url: /tags/
+
   # - title: "Sitemap"
   #  url: /sitemap/
   # - title: "Posts"

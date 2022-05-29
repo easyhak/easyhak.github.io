@@ -5,8 +5,14 @@ categories:
 tags:
   - first posting
   - study
+toc: true
+toc_sticky: true
+sidebar: 
+  nav: "docs"
+search: false
 ---
 첫번째 포스팅
+{: .notice--success} 
 이제 제대로 블로그 시작해보자
 제대로 안할 수도 있고?
 그동안 공부한거 정리해봐야지

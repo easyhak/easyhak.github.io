@@ -38,3 +38,13 @@
 @import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
+
+/* cute font, Gaegu font */
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Gaegu:wght@300&display=swap');
+/* cookierun font */
+@font-face {
+    font-family: 'CookieRun-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
