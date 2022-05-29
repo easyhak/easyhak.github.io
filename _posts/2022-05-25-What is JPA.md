@@ -19,11 +19,13 @@ sidebar:
 - 객체는 객체대로 설계한다.
 - 관계형 데이터베이스는 관계형 데이터 베이스대로 설계한다.
 - ORM 프레임워크가 중간에 매핑한다.
-- 대중적인 언어에는 ORM기술이 존재(`python`, `java`, `Node.js`...)
+- 대중적인 언어에는 ORM기술이 존재한다.(`python`, `java`, `Node.js`...)
 
 ## 동작과정
-<img src="/assets/images/jpa-working-flow.png" alt="jpa-working-flow">
+![jpa-working-flow](/assets/images/jpa-working-flow.png)
+{: .full}
 JPA는 애플리케이션과 JDBC 사이에서 동작한다.
+{: .text-center}
 
 ## JPA의 장점
 - 특정 데이터베이스에 종속되지 않는다.
@@ -54,7 +56,7 @@ JPA는 애플리케이션과 JDBC 사이에서 동작한다.
 
   * 트랜잭션을 지원하는 쓰기 로딩을 지연해준다.  
 
-  `insert`
+  **insert**
   ```java
   transaction.begin(); // [트랜잭션] 시작
   em.persist(memberA);
@@ -65,7 +67,7 @@ JPA는 애플리케이션과 JDBC 사이에서 동작한다.
   transaction.commit(); // [트랜잭션] 커밋
   ```
 
-  `update`
+  **update**
   ```java
   transaction.begin(); // [트랜잭션] 시작
   changeMember(memberA); 
@@ -77,7 +79,7 @@ JPA는 애플리케이션과 JDBC 사이에서 동작한다.
 
   * 지연 로딩과 즉시로딩  
 
-  `지연 로딩:`객체가 실제 사용될 때 로딩된다.
+  **지연 로딩:** 객체가 실제 사용될 때 로딩된다.
 
   ```java
   Member member = memberDAO.find(memberId); // select * from member 
@@ -85,7 +87,7 @@ JPA는 애플리케이션과 JDBC 사이에서 동작한다.
   String teamName = team.getName(); // selct * from team
   ```
 
-  `즉시 로딩:` JOIN SQL로 한번에 연관된 객체까지 미리 조회한다.
+  **즉시 로딩:** JOIN SQL로 한번에 연관된 객체까지 미리 조회한다.
   ```java
   Member member = memberDAO.find(memberId);
   Team team = member.getTeam();
