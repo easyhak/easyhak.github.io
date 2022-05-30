@@ -130,6 +130,7 @@ em.remove(memberA); //엔티티 삭제
 - em.flush() - 직접 호출
 - 트랜잭션 커밋 - 자동 호출
 - JPQL 쿼리 실행 - 자동 호출
+
 ## 플러쉬 모드 옵션
 - FlushModeType.AUTO 커밋이나 쿼리를 실행할 시 플러쉬(default)
 - FlushModeType.COMMIT 커밋할 때만 플러쉬
