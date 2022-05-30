@@ -12,11 +12,11 @@ $doc-font-size: 16 !default;
 $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 /* custom font */
-$cookierun: "CookieRun-Regular",sans-serif;
+$cookierun: "CookieRun-Regular", 'Nanum Myeongjo', sans-serif;
 
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
-$sans-serif: -apple-system, BlinkMacSystemFont, sans-serif, "Cute Font", "Gaegu", "Roboto", "Segoe UI", "CookieRun-Regular",
+$sans-serif: -apple-system, BlinkMacSystemFont, 'nanumsquare','Nanum Myeongjo', sans-serif, "Cute Font", "Gaegu", "Roboto", "Segoe UI", "CookieRun-Regular",
   "Helvetica Neue", "Lucida Grande", Arial  !default;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 
