@@ -16,6 +16,8 @@ docs:
     children: 
       - title: "JPA"
         url: /categories/#jpa/
+      - title: "BOJ"
+        url: /categories/#BOJ/
       - title: "LIFE"
         url: /categories/#life/
   - title: "Tag"
