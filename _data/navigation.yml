@@ -8,6 +8,8 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
+  - title: "About"
+    url: /about/
   - title: "Search"
     url: /search/
 docs:
@@ -28,7 +30,6 @@ docs:
   #  url: /sitemap/
   # - title: "Posts"
   #  url: /year-archive/
-
   # - title: "Pages"
   #  url: /page-archive/
   # - title: "Collections"
