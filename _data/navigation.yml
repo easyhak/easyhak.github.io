@@ -18,10 +18,13 @@ docs:
     children: 
       - title: "JPA"
         url: /categories/#jpa/
+        category: "JPA"
       - title: "BOJ"
         url: /categories/#BOJ/
+        category: "BOJ"
       - title: "LIFE"
         url: /categories/#life/
+        category: "LIFE"
   - title: "Tag"
     url: /tags/
     
