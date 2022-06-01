@@ -22,8 +22,8 @@
     {% endif %}
   </div>
 
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse btn--primary btn--x-large">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button>
+  <div class="author__urls-wrapper" style= "bottom: 1.8em; "> <!-- add style for mobile-->
+    <button class="btn btn--inverse btn--primary">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button>
     <ul class="author__urls social-icons">
       {% if author.location %}
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
