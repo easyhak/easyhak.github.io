@@ -34,7 +34,6 @@ def combinations(arr,r):
 for combi in combinations([1,2,3,4,5],2):
     print(combi)
 ```
-아이디어는 간단하다.
 
 # 중복조합
 ```python
@@ -45,6 +44,17 @@ def combinations_with_replacement(arr,r):
         else:
             for next in combinations_with_replacement(arr[i:],r-1):
                 yield [arr[i]] + next
+```
+# 순열
+```python
+def permutation(arr,r):
+    for i in range(len(arr)):
+        if r == 1:
+            yield [arr[i]]
+        else:
+            for next in permutation(arr[:i]+arr[i+1:],r-1):
+                yield [arr[i]] + next
+
 ```
 
 # 중복순열
