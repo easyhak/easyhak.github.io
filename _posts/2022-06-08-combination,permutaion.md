@@ -30,7 +30,6 @@ def combinations(arr,r):
             for next in combinations(arr[i+1:],r-1): // 다음에 할 일
                 yield [arr[i]] + next
 
-// 아래는 함수를 실행하기 위한 사용법입니다.
 for combi in combinations([1,2,3,4,5],2):
     print(combi)
 ```
@@ -67,3 +66,6 @@ def product(arr,r):
             for next in product(arr,r-1):
                 yield [arr[i]] + next
 ```
+
+다 비슷한 구조를 지니고 있어서 외우기에는 어렵지 않다.    
+이해하면서 쓰는 것도 중요하겠지만 잘 외우고서 쓰는 것도 중요할 것 같다.
